@@ -80,11 +80,11 @@ ul{
 
 }
 
-#features
-{
+#features {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 #features div {
@@ -124,8 +124,10 @@ ul{
     align-items: center;
     background-color: #00B172;
     height: 800px;
+    background-image: url(../images/spotify-icon-white.png);
     background-position: center;
-    background-size: cover;
+    background-size: 150px;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -135,13 +137,13 @@ ul{
 
 }
 
-.actions{
-
+.actions {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: 700px;
-
+    width: 400px;
+    justify-content: space-around;
 }
 
 .center-div{
@@ -152,3 +154,21 @@ ul{
 .white{
     width: 10%;
 }
+
+#Kanye h3{
+
+    font-size: 2em;
+    border-bottom: solid white;
+    padding-bottom: 2px;
+}
+
+#Kanye h4{
+
+    font-size: 1.5em;
+}
+
+#Kanye p{
+    font-size: 1em;
+    line-height: 30px;
+}
+
